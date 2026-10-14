@@ -26,6 +26,8 @@ li{padding-left:3px;margin:0 0 12px}
 .eyebrow{font-size:13px;color:var(--muted);margin:0 0 10px}
 .permalink{overflow-wrap:anywhere;color:var(--blue);font-size:14px}
 .work span{font-size:15px}
+.works{list-style:none;padding-left:0}
+.works .work{margin-bottom:16px}
 figure{margin:22px 0 30px}
 .field-photo{display:block;width:min(100%,560px);max-height:520px;object-fit:cover;object-position:center 40%}
 figcaption{font-size:13px;color:var(--muted);margin-top:7px}
