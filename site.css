@@ -19,6 +19,18 @@ li{padding-left:3px;margin:0 0 12px}
 .portrait{width:180px;height:220px;object-fit:cover;object-position:center 30%;border-radius:2px}
 .role,.affiliation{color:var(--muted);margin:0 0 10px}
 .plain-links{margin:24px 0}
+.cv-index{display:flex;flex-wrap:wrap;gap:12px 24px;margin:28px 0 36px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cv-index a{font-size:14px;text-decoration:none}
+.cv-part{padding:8px 0 24px;border-top:1px solid var(--line);scroll-margin-top:20px}
+.cv-part h2{margin-top:6px}
+.section-kicker{margin:18px 0 4px;color:#4d7153;font-size:11px;font-weight:700;letter-spacing:.13em}
+.cv-highlights{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:24px 0 30px;border:1px solid #dce5dc;background:#f7f9f6}
+.cv-highlights div{padding:16px 14px;border-right:1px solid #dce5dc}
+.cv-highlights div:last-child{border-right:0}
+.cv-highlights strong,.cv-highlights span{display:block}
+.cv-highlights strong{color:#355d40;font-size:22px;line-height:1.2}
+.cv-highlights span{margin-top:6px;color:var(--muted);font-size:12px;line-height:1.4}
+.outreach-lead{max-width:690px;font-size:18px;line-height:1.6}
 .doi,.record-link{font-size:13px;margin-left:4px}
 .record-link{margin-left:0}
 .note,.status{font-size:14px;color:var(--muted)}
@@ -33,4 +45,4 @@ figure{margin:22px 0 30px}
 .research-visual{display:block;width:auto;height:auto;max-width:min(100%,680px);max-height:460px;object-fit:contain;margin:0 auto;border:1px solid var(--line);background:#fff}
 figcaption{font-size:13px;color:var(--muted);margin-top:7px}
 .footer{border-top:1px solid var(--line);padding:16px 0 28px;display:flex;gap:18px;justify-content:space-between;color:var(--muted);font-size:13px}
-@media(max-width:600px){body{padding:0 18px}.header{gap:12px;flex-wrap:wrap}.header nav{gap:13px}.header nav a{font-size:13px}.main{padding-top:32px}h1{font-size:27px}.intro{grid-template-columns:110px 1fr;gap:18px}.portrait{width:110px;height:140px}.footer{flex-direction:column;gap:4px}}
+@media(max-width:600px){body{padding:0 18px}.header{gap:12px;flex-wrap:wrap}.header nav{gap:10px;flex-wrap:wrap}.header nav a{font-size:12px}.main{padding-top:32px}h1{font-size:27px}.intro{grid-template-columns:110px 1fr;gap:18px}.portrait{width:110px;height:140px}.cv-highlights{grid-template-columns:repeat(2,minmax(0,1fr))}.cv-highlights div:nth-child(2){border-right:0}.cv-highlights div:nth-child(-n+2){border-bottom:1px solid #dce5dc}.footer{flex-direction:column;gap:4px}}
