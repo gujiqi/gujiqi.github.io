@@ -41,6 +41,8 @@ li{padding-left:3px;margin:0 0 12px}
 .works{list-style:none;padding-left:0}
 .works .work{margin-bottom:16px}
 figure{margin:22px 0 30px}
+.about-field-figure{margin:24px 0 32px}
+.about-field-photo{display:block;width:min(100%,480px);height:auto}
 .field-photo{display:block;width:min(100%,560px);max-height:520px;object-fit:cover;object-position:center 40%}
 .research-visual{display:block;width:auto;height:auto;max-width:min(100%,680px);max-height:460px;object-fit:contain;margin:0 auto;border:1px solid var(--line);background:#fff}
 figcaption{font-size:15px;color:var(--muted);margin-top:7px}
